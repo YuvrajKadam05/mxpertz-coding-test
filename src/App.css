@@ -1,0 +1,123 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+ /* navarbar css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar-left h1,
+.navbar-middle h1,
+.navbar-right button {
+  margin: 0;
+}
+.navbar-middle {
+  display: flex;
+  gap: 8px;
+}
+.navbar-right button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.navbar-right button:hover {
+  background-color: #45a049;
+}
+
+/* section part */
+.section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  gap: 25px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.button{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+/* card css  */
+/* Card.css */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h2 {
+  margin-top: 0;
+}
+
+.card-body p {
+  margin: 10px 0;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
